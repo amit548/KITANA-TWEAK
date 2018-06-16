@@ -7,5 +7,5 @@ MODDIR=${0%/*}
 # More info in the main Magisk thread
 if [ -d $MODDIR/system/KITANA/ACTIVE ]
 then
-	/sbin/.core/busybox/busybox run-parts $MODDIR/system/KITANA/ACTIVE
+	/sbin/.core/mirror/bin/busybox run-parts $MODDIR/system/KITANA/ACTIVE
 fi
